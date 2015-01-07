@@ -68,8 +68,8 @@ public class Graph{
         return null;
     }
     public boolean isInView(Coordinate c){
-        if((c.x<maxX&&c.x>minX)
-            &&(c.y<maxY&&c.y>minY)){
+        if((c.x<=maxX&&c.x>=minX)
+            &&(c.y<=maxY&&c.y>=minY)){
             return true;
         }
             return false;
