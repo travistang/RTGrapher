@@ -76,7 +76,7 @@ public class Graph{
             Vector<Coordinate> returnPointList=new Vector<>();
             if(!returnPointList.isEmpty()){
             for(int i=0;i<getPointCount();i++){
-                        Coordinate p=getJustifiedCoordinate(width,height, (Coordinate) pointList.get(i));
+                        Coordinate p=getJustifiedCoordinate(width,height, pointVector.get(i));
                         if(p!=null){
                             returnPointList.add(p);
                         }
