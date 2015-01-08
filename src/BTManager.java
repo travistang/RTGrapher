@@ -28,9 +28,7 @@ public class BTManager {
     public int baudRate;
     public String targetPortName;
     private byte[] buffer;
-    private byte[] backupBuffer;
     private final Grapher g;
-    private Thread runThread;
     
     public static enum byteHandlingMethod{
         X_DATA_Y_TIME,
