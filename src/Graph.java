@@ -13,7 +13,6 @@ import java.util.*;
  */
 public class Graph{
     public Graph(){
-        pointList=new HashMap();
         pointVector=new Vector<>();
     };
 
@@ -50,7 +49,6 @@ public class Graph{
     }
     private float minX,maxX,minY,maxY;
     private int pointCount;
-    public HashMap pointList;
     public Vector<Coordinate> pointVector;
     public double abs(double d){
         if(d<0)return -d;
